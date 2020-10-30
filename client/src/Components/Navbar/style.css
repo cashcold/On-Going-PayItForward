@@ -1,0 +1,154 @@
+.links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.links li{
+    list-style: none;
+}
+.links li a{
+    text-decoration: none;
+    color: white;
+    font-size: bold;
+}
+.links li a:hover{
+    color: yellow;
+    transition: all 2s;
+    font-weight: bolder;
+}
+.logo img{
+    width: 150px;
+    height: 100px;
+   
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.logo h1{
+    color: yellow;
+    font: large;
+    letter-spacing: 3px;
+    font-size: bolder;
+    font-family: monospace;
+}
+.navBar{
+    height: 25vh;
+    /* background-image: url('../../pic/521447.jpg'); */
+    background-position: center;
+    background-position: cover  ;
+    animation: logoImg 30s infinite;
+}
+.DashboardBtn{
+    margin-top: 40%;
+}
+li{
+    list-style: none;
+}
+@keyframes logoImg{
+    0%{
+        background-position: 0% 0%;
+    }
+    25%{
+        background-position: 0% 10%;
+    }
+    50%{
+        background-position: 10% 0%;
+    }
+    75%{
+        background-position: 0% 10%;
+    }
+    100%{
+        background-position: 0% 0%;
+    }
+}
+.toggleBtn div{
+    background-color: green;
+    width: 35px;
+    height: 5px;
+    margin: 5px;
+}
+.toggleBtn{
+    display: none;
+}
+.linksNow{
+    height: 10vh;
+}
+
+.welcomeInfoMain{
+    display: flex;
+    justify-content: space-between;
+}
+.logInfo{
+    display: flex;
+}
+.userLog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logInfo li{
+    list-style: none;
+}
+.logInfo a{
+    text-decoration: none;
+}
+.logoutIn{
+    display: flex;
+    margin-left: -200px;
+}
+
+.logoutIn li{
+    list-style: none;
+}
+.user_In_Out{
+    display: none;
+}
+.DashboardBtn{
+    display: none;
+}
+@media screen and (max-width: 414px){
+    .links{
+        display: block;
+        margin: 15px;
+    }
+    .logo img{
+        width: 80px;
+        height: 50px;
+       
+    }
+    .logo h1{
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-family: monospace;
+    }
+    .navBar{
+        height: 30vh;
+    }
+    .toggleBtn{
+        display: block;
+
+    }
+    .navBar nav{
+        position: absolute;
+        top: 2%;
+        left: 75%;
+    }
+    .linksNow{
+        height: 20vh;
+        display: none;
+    }
+    .logInfo{
+        position: absolute;
+        left: 30%;
+        top: 15%;
+    }
+    
+    .DashboardBtn{
+        position: absolute;
+        margin-top: 90px;
+        margin-left: -60%;
+    }
+}
+

@@ -1,0 +1,13 @@
+.calculateProfit{
+    margin-left: 30%;
+}
+
+
+@media screen and ( max-width: 414px){
+    .calculateProfit h1{
+        font-size: 20px;
+    }
+    .calculateProfit{
+        margin-left: 10%;
+    }
+}

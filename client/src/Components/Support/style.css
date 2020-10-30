@@ -1,0 +1,158 @@
+.supportInfo h4{
+    font-size: 17px;
+}
+.bothAll{
+    display: flex;
+}
+.bothSupportA{
+    width: 40%;
+    min-height: 40vh;
+}
+.bothSupportB{
+    width: 60%;
+    min-height: 40vh;
+    background-color: rgba(76, 120, 216, 0.212);
+}
+.bothMenu{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(76, 120, 216, 0.212);
+}
+.supportInfo img {
+    margin-left: 30%;
+}
+.supportInfo h4{
+    margin-left: 20%;
+}
+.supportHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    background-image: url('../../pic/partha-narasimhan-duXJOBVg_l4-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.bothSupportB{
+    margin: 30px;
+}
+.contactDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lineSupport h5{
+    margin-left: 40%;
+}
+.lineSupport p{
+    padding: 30px;
+}
+.formA table tr{
+    margin: 30px;
+}
+.formA table label{
+    margin: 10px;
+}
+.formA table input {
+    margin: 30px;
+    width: 300px;
+    height: 50px;
+    border-radius: 20%;
+    outline: none;
+    border: none;
+}
+.formA table input[type='text']{
+    height: 300px;
+    width: 500px;
+}
+.massageFild{
+    width: 400px;
+    height: 200px;
+    border: none;
+    outline: none;
+    border-radius: 5%;
+}
+
+@media screen and ( max-width: 414px){
+    .supportHeader h1{
+        font-size: 20px;
+    }
+    .supportHeader{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        background-image: url('../../pic/partha-narasimhan-duXJOBVg_l4-unsplash.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .bothAll{
+        display: block;
+    }
+    .bothMenu{
+        margin: 30px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(76, 120, 216, 0.212);
+    }
+    .bothSupportA{
+        width: 100%;
+        min-height: 40vh;
+    }
+    .bothSupportB{
+        width: 100%;
+        min-height: 40vh;
+        background-color: rgba(76, 120, 216, 0.212);
+    }
+    .formA table input[type='text']{
+        height: 200px;
+        width: 300px;
+    }
+    .formA table label{
+        margin-left: 80px;
+    }
+    .formA table input {
+        margin: 5px;
+        width: 200px;
+        height: 50px;
+        border-radius: 5%;
+        outline: none;
+        border: none;
+    }
+    .formA table input[type='text']{
+        height: 200px;
+        width: 200px;
+    }
+    .formA table {
+        margin-left: -150px;
+    }
+    .bothSupportB{
+        margin: 0px;
+    }
+    .lineSupport h5{
+        margin-left: 20%;
+    }
+    .massageFild{
+        width: 300px;
+        height: 300px;
+        border: none;
+        outline: none;
+        border-radius: 1%;
+    }
+    .supportInfo h4{
+        margin-left: -10px;
+    }
+    .formA table tr{
+        margin: 20px;
+    }
+    .formA table label{
+        margin: 10px;
+    }
+    .formA{
+        margin-left: 30%;
+    }
+    
+}

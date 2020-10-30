@@ -1,0 +1,62 @@
+.confirmLine{
+    display: flex;
+}
+.confirmDepositNow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lastDepositConfirm{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.lastDepositConfirm p{
+    margin: 0 40px;
+}
+.confirmLine{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px; 
+}
+.lastConfirm{
+    background-color: rgba(71, 129, 255, 0.555);
+    width: 70%;
+    min-height: 700px;
+}
+.planInfo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.planInfo p{
+    font-size: 20px;
+    padding: 20px 0;
+}
+.lastConfirm{
+    display: block;
+}
+.confirmBtnInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5em;
+}
+.btnConfirm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputHide{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 414px){
+    .confirmDepositNow h1{
+        font-size: 20px;
+    }
+}

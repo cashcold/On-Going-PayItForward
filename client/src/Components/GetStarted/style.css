@@ -1,0 +1,63 @@
+.startMsg{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        background-image: url('../../pic/partha-narasimhan-duXJOBVg_l4-unsplash.jpg');
+        background-position: center;
+        background-size: cover;
+}
+.startText{
+    margin-top: 40px;
+    width: 100%;
+    background-color: rgba(71, 129, 255, 0.555);
+    height: 20vh;
+}
+.startText p{
+    font-size: 25px;
+}
+.lastStart{
+    width: 100%;
+    padding-top: 40px;
+}
+.lastStart h4{
+    letter-spacing: 3px;
+}
+.lastStartSignUp{
+    position: absolute;
+    left: 45%;
+}
+@media screen and (max-width: 414px){
+    .startText p{
+        font-size: 18px;
+    }
+    .startMsg{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 15vh;
+            background-image: url('../../pic/partha-narasimhan-duXJOBVg_l4-unsplash.jpg');
+            background-position: center;
+            background-size: cover;
+    }
+    .lastStart{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .lastStart h4{
+        font-size: 10px;
+    }
+    .lastStart button{
+        position: absolute;
+        left: 45%;
+        margin-bottom: 30%;
+    }
+    .lastStartSignUp{
+        margin-top: -20px;
+    }
+    .startText{
+        margin-top: 20px;
+        background-color: rgba(71, 129, 255, 0.555);
+        height: 10vh;
+    }
+}

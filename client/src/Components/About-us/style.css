@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    background-image: url('../../pic/partha-narasimhan-duXJOBVg_l4-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.aboutText{
+    padding-top: 50px;
+}
+.mainAbout{
+    width: 100%;
+}
+.aboutImg img{
+    width: 100%;
+}
+.aboutText p{
+   background-color: rgba(76, 120, 216, 0.212);
+}
+.howWork h1{
+    padding-top: 50px;
+}
+.ourMission{
+    padding-top: 50px;
+}
+
+@media screen and (max-width:414px){
+    .aboutMe h1{
+        font-size: 20px;
+    }
+    .aboutMe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        background-image: url('../../pic/partha-narasimhan-duXJOBVg_l4-unsplash.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    .aboutText h3{
+        font-size: 18px;
+    }
+    .howWork h1{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .ourMission h1{
+        font-size: 25px;
+    }
+}
