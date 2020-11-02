@@ -195,8 +195,15 @@ Router.post('/deposit', async(req,res)=>{
 })
 
 
-Router.get('/getprofile',(req,res)=>{
-    const user = User.find()
+Router.post('/widthdraw', async(req,res)=>{
+    const WithdrawNow = new WithdrawDeposit({
+        user_Name: req.body.user_Name,
+        plan: req.body.plan,
+        withdrawtAmount: req.body.withdrawtAmount,
+        walletAddress: req.body.walletAddress
+    })
+    await WithdrawNow.save()
+    res.send('Payment send to Account Wallet')
 })
 
 module.exports = Router;

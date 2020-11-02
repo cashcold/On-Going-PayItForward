@@ -1,0 +1,23 @@
+.withdrawNow{
+    display: flex;
+    justify-content: center;
+}
+.withAbout{
+    display: flex;
+    justify-content: space-evenly;
+}
+.withNowAll{
+    margin-top: 30px;
+}
+.nowWithdraw{
+    margin-top: 40px;
+}
+.comfrimWithdraw{
+    display: flex;
+    justify-content: center;
+}
+.checkBalance{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}

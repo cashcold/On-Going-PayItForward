@@ -7,19 +7,14 @@ const userSchema = new mongoose.Schema({
     },
     plan: {
         type: String,
-        require: true,
+        require: true, 
     },
     withdrawtAmount: {
-        type: Number,
+        type: String,
         require: true,
     },
     walletAddress: {
         type: String
-    }
-    ,
-    Date:{
-        type: Date,
-        default: Date.now
     }
     
 })

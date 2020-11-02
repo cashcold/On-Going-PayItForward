@@ -17,6 +17,7 @@ import ActivitPassword from './Components/Password/activePassword';
 import Deposit from './Components/Deposit/deposit';
 import ConfirmDeposit from './Components/ConfirmDeposit/confirmDeposit';
 import Settings from './Components/Settings/settings';
+import WithdrawNow from './Components/Withdraw/withdraw';
 class MainApp extends Component {
     constructor(props) {
         super(props);
@@ -46,6 +47,10 @@ class MainApp extends Component {
                               <Route path='/deposit' component={Deposit}/>
                               <Route path='/confirmDeposit' component={ConfirmDeposit}/>
                               <Route path='/settings' component={Settings}/>
+                              <Route path='/withdraw' component={WithdrawNow
+                            
+                            
+                            }/>
                            </Switch>
                         </div>
                         <Footer/>

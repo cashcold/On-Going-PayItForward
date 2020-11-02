@@ -89,6 +89,7 @@ class DashBoard extends Component {
         localStorage.setItem("user_Name",decoded.user_Name)
         localStorage.setItem("full_Name",decoded.full_Name)
         localStorage.setItem("activetDeposit",decoded.activetDeposit)
+        localStorage.setItem('accountBalance',decoded.accountBalance)
 
         if(localStorage.getItem('x-access-token') != null)  {
             this.setState({Login: true})
@@ -168,8 +169,8 @@ class DashBoard extends Component {
                         <div className='dashInfo1'>
                             <div className='infoDash'>
                                 <p>ACCOUNT BALANCE</p>
-                                <p className='balanceMe'>0.00$</p>
-                                 <a href='' className='btn btn-warning'>REQUEST PAYMENT</a>
+                                <p className='balanceMe'>${this.state.accountBalance}</p>
+                                 <a href='/withdraw' className='btn btn-warning'>REQUEST PAYMENT</a>
                             </div>
                             <div className='infoImg'>
                                 <img src={require('../../pic/wallet.png')}/>
